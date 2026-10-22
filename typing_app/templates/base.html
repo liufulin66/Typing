@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#245d48">
+  <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}?v=1">
+  <title>{% block title %}键程 · 把每一个字，打得更从容{% endblock %}</title>
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <a href="#main" class="skip-link">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="键程首页"><span class="brand-mark" aria-hidden="true">J.</span><strong>键程<span>KEYJOURNEY</span></strong></a>
+    <nav aria-label="主导航">
+      <a href="/" {% if request.path == '/' %}aria-current="page"{% endif %}>练习空间</a>
+      <a href="/lessons" {% if request.path == '/lessons' %}aria-current="page"{% endif %}>指法课程</a>
+      <a href="/history" {% if request.path == '/history' %}aria-current="page"{% endif %}>练习记录</a>
+    </nav>
+    <span class="local-badge"><i aria-hidden="true"></i> 本地练习 · 数据留在这里</span>
+  </header>
+  <main id="main">{% block content %}{% endblock %}</main>
+  <footer class="site-footer"><span>键程 KEYJOURNEY</span><span>不用很快，先把每一次落指练准。</span><span>你的私人打字练习空间</span></footer>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

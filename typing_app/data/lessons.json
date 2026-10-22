@@ -1,0 +1,18 @@
+[
+ {"id":"home-fj","title":"找到你的起点","stage":"基准行","new_keys":"fj","hint":"左右食指轻放在 F 和 J 的凸点上，每次按键后回到这里。","text":"fff jjj fj fj jf jf ff jj fjf jfj f j"},
+ {"id":"home-dk","title":"让中指加入","stage":"基准行","new_keys":"dk","hint":"D 用左手中指，K 用右手中指。食指仍然留在 F 和 J 附近。","text":"ddd kkk dk kd fd jk df kj fj dk fk jd"},
+ {"id":"home-sl","title":"唤醒无名指","stage":"基准行","new_keys":"sl","hint":"S 对应左手无名指，L 对应右手无名指，放松手指，轻轻落键。","text":"sss lll sl ls ds kl sd lk fj dk sl fl js"},
+ {"id":"home-a","title":"小指的第一步","stage":"基准行","new_keys":"a","hint":"A 用左手小指。右手小指先轻放在分号键上，保持双手的基准位置。","text":"aaa as sa ad da af fa al la ask flask salad"},
+ {"id":"home-gh","title":"向中间伸一格","stage":"基准行","new_keys":"gh","hint":"左手食指从 F 到 G，右手食指从 J 到 H，按完回到基准位置。","text":"ggg hhh gh hg fg jh gf hj glad flag glass dash"},
+ {"id":"top-ru","title":"食指向上一格","stage":"上排字母","new_keys":"ru","hint":"R 用左手食指，U 用右手食指，向上伸展后回到 F 和 J。","text":"rrr uuu ru ur fr ju rf uj rural guard sugar shrug"},
+ {"id":"top-ei","title":"中指的上排旅程","stage":"上排字母","new_keys":"ei","hint":"E 对应左手中指，I 对应右手中指。让其他手指留在基准行。","text":"eee iii ei ie de ki ed ik idea guide field desire"},
+ {"id":"top-wo","title":"无名指向上","stage":"上排字母","new_keys":"wo","hint":"W 用左手无名指，O 用右手无名指，动作小一点，保持手腕自然。","text":"www ooo wo ow sw lo ws ol word wood slow flower"},
+ {"id":"top-qp","title":"触达两侧边缘","stage":"上排字母","new_keys":"qp","hint":"Q 用左手小指，P 用右手小指。不要用整只手追着按键移动。","text":"qqq ppp qp pq aq lp qa pl quail paper proud equal"},
+ {"id":"top-ty","title":"上排的最后两键","stage":"上排字母","new_keys":"ty","hint":"T 用左手食指，Y 用右手食指。按完后回到 F 和 J 的凸点。","text":"ttt yyy ty yt ft jy tf yj type study pretty together"},
+ {"id":"bottom-vm","title":"食指向下一格","stage":"下排字母","new_keys":"vm","hint":"V 对应左手食指，M 对应右手食指。小幅向下伸展，按完归位。","text":"vvv mmm vm mv fv jm vf mj move vivid dream improve"},
+ {"id":"bottom-cx","title":"左手下排探索","stage":"下排字母","new_keys":"cx","hint":"C 用左手中指，X 用左手无名指，保持每根手指各自的分工。","text":"ccc xxx cx xc dc sx cd xs exact calm magic exercise"},
+ {"id":"bottom-z","title":"认识最左下角","stage":"下排字母","new_keys":"z","hint":"Z 用左手小指，从 A 向下伸展。慢一点，让准确率先稳定下来。","text":"zzz az za sz zs dz zd jazz lazy size zero cozy"},
+ {"id":"bottom-bn","title":"补齐最后一块拼图","stage":"下排字母","new_keys":"bn","hint":"B 用左手食指，N 用右手食指。至此，你已练过全部二十六个字母。","text":"bbb nnn bn nb fb jn bf nj begin balance banana brave"},
+ {"id":"mixed-alphabet","title":"全字母轻松切换","stage":"综合练习","new_keys":"","hint":"让手指在三排之间自然切换，不急着加速，先稳稳地落在正确的按键上。","text":"fj dk sl a gh ru ei wo qp ty vm cx z bn abc def ghi jkl mno pqr stu vwx yz"},
+ {"id":"mixed-words","title":"把字母连成表达","stage":"综合练习","new_keys":"","hint":"从单个按键走向完整单词，空格用拇指。练完后，试试中英文文章练习。","text":"small steps make a great journey keep your hands relaxed and give each letter a little care"}
+]

@@ -1,0 +1,8 @@
+[
+ {"name":"英文空格和速度","run":{"target_text":"hello world","mode":"full","language":"en"},"steps":[{"value":"hello world"}],"elapsed_ms":60000,"expected":{"attempted_chars":11,"correct_attempts":11,"final_correct_chars":11,"accuracy":100,"speed":2.2}},
+ {"name":"中文标点和非 BMP 字符","run":{"target_text":"你 好。🌱","mode":"full","language":"zh"},"steps":[{"value":"你 好。🌱"}],"elapsed_ms":60000,"expected":{"attempted_chars":5,"correct_attempts":5,"final_correct_chars":5,"accuracy":100,"speed":5}},
+ {"name":"退格保留历史错误","run":{"target_text":"abcd","mode":"full","language":"en"},"steps":[{"value":"abx"},{"value":"ab"},{"value":"abcd"}],"elapsed_ms":60000,"expected":{"attempted_chars":5,"correct_attempts":4,"final_correct_chars":4,"accuracy":80,"speed":0.8}},
+ {"name":"相同字符替换也计尝试","run":{"target_text":"ab","mode":"full","language":"en"},"steps":[{"value":"ab"},{"value":"ab","edit":{"start":0,"end":1,"inputType":"insertText"}}],"elapsed_ms":60000,"expected":{"attempted_chars":3,"correct_attempts":3,"final_correct_chars":2,"accuracy":100,"speed":0.4}},
+ {"name":"选择位置决定新字符目标","run":{"target_text":"abab","mode":"full","language":"en"},"steps":[{"value":"ab"},{"value":"aab","edit":{"start":0,"end":0,"inputType":"insertText"}},{"value":"abab","edit":{"start":1,"end":1,"inputType":"insertText"}}],"elapsed_ms":60000,"expected":{"attempted_chars":4,"correct_attempts":4,"final_correct_chars":4,"accuracy":100,"speed":0.8}},
+ {"name":"限时短素材循环","run":{"target_text":"ab","mode":"timed","language":"en","duration_seconds":60},"steps":[{"value":"ababab"}],"elapsed_ms":60000,"expected":{"attempted_chars":6,"correct_attempts":6,"final_correct_chars":6,"accuracy":100,"speed":1.2}}
+]
